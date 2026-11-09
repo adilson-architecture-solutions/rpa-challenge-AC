@@ -66,7 +66,7 @@ rpa-challenge-AC/
     git clone [https://github.com/adilson-architecture-solutions/rpa-challenge-AC.git](https://github.com/adilson-architecture-solutions/rpa-challenge-AC.git)
 cd rpa-challenge-AC
 
-2- Criar e ativar o ambiente (opcioanl)
+2- Criar e ativar o ambiente (opcioanl/ recomendável )
 # Windows
 python -m venv .venv
 .venv\Scripts\activate
