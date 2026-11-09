@@ -1,0 +1,105 @@
+Abrindo Chrome...
+[ARQUIVO] A planilha já existe localmente: challenge.xlsx
+Lendo dados do Excel...
+Registros encontrados: 10
+Iniciando desafio...
+
+Executando Round 01/10
+Preenchido: Last Name        -> Smith
+Preenchido: Phone Number     -> 40716543298
+Preenchido: Company Name     -> IT Solutions
+Preenchido: First Name       -> John
+Preenchido: Email            -> jsmith@itsolutions.co.uk
+Preenchido: Address          -> 98 North Road
+Preenchido: Role in Company  -> Analyst
+
+Executando Round 02/10
+Preenchido: Company Name     -> MediCare
+Preenchido: Address          -> 11 Crown Street
+Preenchido: Last Name        -> Dorsey
+Preenchido: Role in Company  -> Medical Engineer
+Preenchido: Phone Number     -> 40791345621
+Preenchido: First Name       -> Jane
+Preenchido: Email            -> jdorsey@mc.com
+
+Executando Round 03/10
+Preenchido: Phone Number     -> 40735416854
+Preenchido: First Name       -> Albert
+Preenchido: Role in Company  -> Accountant
+Preenchido: Last Name        -> Kipling
+Preenchido: Email            -> kipling@waterfront.com
+Preenchido: Company Name     -> Waterfront
+Preenchido: Address          -> 22 Guild Street
+
+Executando Round 04/10
+Preenchido: Last Name        -> Robertson
+Preenchido: First Name       -> Michael
+Preenchido: Address          -> 17 Farburn Terrace
+Preenchido: Company Name     -> MediCare
+Preenchido: Email            -> mrobertson@mc.com
+Preenchido: Phone Number     -> 40733652145
+Preenchido: Role in Company  -> IT Specialist
+
+Executando Round 05/10
+Preenchido: First Name       -> Doug
+Preenchido: Email            -> dderrick@timepath.co.uk
+Preenchido: Address          -> 99 Shire Oak Road
+Preenchido: Phone Number     -> 40799885412
+Preenchido: Role in Company  -> Analyst
+Preenchido: Last Name        -> Derrick
+Preenchido: Company Name     -> Timepath Inc.
+
+Executando Round 06/10
+Preenchido: Phone Number     -> 40733154268
+Preenchido: Company Name     -> Aperture Inc.
+Preenchido: Address          -> 27 Cheshire Street
+Preenchido: Email            -> jmarlowe@aperture.us
+Preenchido: Role in Company  -> Scientist
+Preenchido: First Name       -> Jessie
+Preenchido: Last Name        -> Marlowe
+
+Executando Round 07/10
+Preenchido: Company Name     -> Sugarwell
+Preenchido: Last Name        -> Hamm
+Preenchido: Phone Number     -> 40712462257
+Preenchido: Role in Company  -> Advisor
+Preenchido: Email            -> shamm@sugarwell.org
+Preenchido: Address          -> 10 Dam Road
+Preenchido: First Name       -> Stan
+
+Executando Round 08/10
+Preenchido: Last Name        -> Norton
+Preenchido: Company Name     -> Aperture Inc.
+Preenchido: Address          -> 13 White Rabbit Street
+Preenchido: Phone Number     -> 40731254562
+Preenchido: Email            -> mnorton@aperture.us
+Preenchido: First Name       -> Michelle
+Preenchido: Role in Company  -> Scientist
+
+Executando Round 09/10
+Preenchido: Last Name        -> Shelby
+Preenchido: Address          -> 19 Pineapple Boulevard
+Preenchido: Role in Company  -> HR Manager
+Preenchido: Email            -> sshelby@techdev.com
+Preenchido: First Name       -> Stacy
+Preenchido: Company Name     -> TechDev
+Preenchido: Phone Number     -> 40741785214
+
+Executando Round 10/10
+Preenchido: Last Name        -> Palmer
+Preenchido: First Name       -> Lara
+Preenchido: Phone Number     -> 40731653845
+Preenchido: Company Name     -> Timepath Inc.
+Preenchido: Email            -> lpalmer@timepath.co.uk
+Preenchido: Address          -> 87 Orange Street
+Preenchido: Role in Company  -> Programmer
+
+[EVIDÊNCIA] Print da tela final salvo em: evidencia_score.png
+[LOG] Arquivo de auditoria gerado em: log_execucao.csv
+
+============================================
+RPA CHALLENGE CONCLUÍDO!
+Your success rate is 100% ( 70 out of 70 fields) in 8176 milliseconds
+============================================
+
+Para encerrar o processo aperte ENTER...Chrome encerrado.
