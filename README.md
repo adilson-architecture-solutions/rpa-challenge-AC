@@ -46,6 +46,8 @@ text
 rpa-challenge-AC/
 │
 ├── GoRPAChallenge_AC.py     # Script principal da automação
+├── config.py     # Script modulo de configuração dos arquivos paramentros
+├── config.py     # Script modulo que captura os logs
 ├── challenge.xlsx            # Planilha base (baixada automaticamente se ausente)
 ├── requirements.txt         # Pacotes e dependências externas
 ├── .gitignore               # Regras de exclusão de artefatos do Git
