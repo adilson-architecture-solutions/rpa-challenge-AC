@@ -6,6 +6,8 @@ import urllib.request
 from datetime import datetime
 from pathlib import Path
 import pandas as pd
+from config import Config
+
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -14,50 +16,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-# classe de log duplo (terminal + txt)
+ARQUIVO_EXCEL = Config.ARQUIVO_EXCEL 
+ARQUIVO_PRINT = Config.ARQUIVO_PRINT
+ARQUIVO_LOG = Config.ARQUIVO_LOG
+URL = Config.URL
 
-
-class LoggerDuplo:
-    def __init__(self, caminho_arquivo):
-        self.terminal = sys.stdout
-        self.log = open(caminho_arquivo, "w", encoding="utf-8")
-
-    def write(self, mensagem):
-        self.terminal.write(mensagem)
-        self.log.write(mensagem)
-        self.log.flush()  # grava log no arquivo no mesmo momento dos prints
-
-    def flush(self):
-        self.terminal.flush()
-        self.log.flush()
-
-
-# configuração pastas/path dos arquivos
-
-
-PASTA_PROJETO = Path(__file__).parent.resolve()
-
-PASTA_OUTPUT = PASTA_PROJETO / "output"
-PASTA_OUTPUT.mkdir(parents=True, exist_ok=True)
-
-# ativa o log de etapas em arquivo de texto, o objetivo é simular que esses dados podem capturados e gravados.
-# matenho a integridade da base principal
-sys.stdout = LoggerDuplo(PASTA_OUTPUT / "execucao.txt")
-
-ARQUIVO_EXCEL = PASTA_PROJETO / "challenge.xlsx"
-ARQUIVO_PRINT = PASTA_OUTPUT / "evidencia_score.png"
-ARQUIVO_LOG = PASTA_OUTPUT / "log_execucao.csv"
-URL = "https://rpachallenge.com/"
-
-MAPEAMENTO = {
-    "First Name": "First Name",
-    "Last Name": "Last Name",
-    "Company Name": "Company Name",
-    "Role in Company": "Role in Company",
-    "Address": "Address",
-    "Email": "Email",
-    "Phone Number": "Phone Number"
-}
+MAPEAMENTO = Config.MAPEAMENTO
 
 # lista em memória para acumular os registros do log
 historico_execucao = []
